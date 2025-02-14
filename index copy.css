@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    width: 550px;
+    height: 550px;
+    top: 64px;
+    left: 642px;
+    background: #1F2937;
+
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+#heading {
+    padding: 115px 144px 10px 52px;
+    width: 354px;
+    height: 80px;
+    font-family: "Karla";
+    font-weight: 800px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -2.5%;
+    color: #FFFFFFff
+
+}
+
+#heading-tail {
+   color: #70CAA3ff
+}
+
+#description {
+    width: 372;
+    height: 28;
+    padding: 0 126 0 52;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #D5D4D8;
+}
+
+#generate {
+    margin: 51px 307px 35px 52px;
+    width: 191;
+    height: 42;
+
+    border-radius: 6px;
+    border: none;
+    
+    gap: 12px;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFFFFff;
+    background:#10B981ff;
+
+    padding-top: 9px;
+    padding-right: 17px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+
+}
+
+.line {
+    display: block; /* 让 span 变成块级元素 */
+    position: absolute;
+
+    left: 52px;
+    width: 446px;
+    height: 1px; /* 设置高度 */
+    background-color: #2F3E53; /* 直线颜色 */
+    transform: rotate(0deg); /* 角度控制 */
+}
+
+.password {
+    margin-left: 52px;
+    width: 446px;
+    margin-top: 70;
+
+
+
+
+    border-radius: 6px;
+
+    display: flex;
+    justify-content: center;
+    
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+#password1 {
+    background: #273549;
+    color: #55F991;
+    text-align: center;
+    width:211;
+    height: 39;
+    margin-right: 24;
+}
+
+#password2 {
+    background: #273549;
+    color: #55F991;
+    text-align: center;
+    width:211;
+    height: 39;
+    
+}
